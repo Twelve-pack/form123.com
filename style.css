@@ -1,0 +1,108 @@
+body{
+
+	margin: 0;
+    padding: 0;
+	box-sizing: border-box;
+}
+
+.container{
+
+	width: 100%;
+	margin: auto;
+}
+
+.top{
+
+	height: 120vh;
+	width: 100%;
+	background-image: url(p.jpg);
+	background-repeat: no-repeat;
+	background-size: 110%;
+	background-position: center;
+	border: 2px saddlebrown;
+	
+}
+.logo{
+
+	color: skyblue;
+	font-family: arial;
+	font-size: 50px;
+	text-align: center;
+	padding-top: 7%;
+	
+
+}
+
+.logo:hover{
+
+	color: white;
+}
+
+.ref{
+	 text-decoration: none;
+
+}
+
+.mdle form input:first-child{
+
+	display:inline-block ;
+	width: 15%;
+	padding: 14px 130px 14px 15px;
+	border: 2px solid silver;
+	outline: none;
+	border-radius: 30px;
+	margin-left: 34%;
+
+}
+
+.mdle form input:last-child{
+
+	display:inline-block ;
+	width: 15%;
+	padding: 14px 130px 14px 15px;
+	border: 2px solid silver;
+	outline: none;
+	border-radius: 30px;
+	margin-left: 34%;
+
+}
+
+.btn{
+
+	color: white;
+	text-decoration: none;
+	background-color: skyblue;
+	border: solid transparent;
+	padding: 14px;
+	border-radius: 30px;
+	font-weight: bolder;
+	margin-left: 45%;
+	
+
+}
+
+.btn:hover{
+
+	color: black;
+	transform: scale(1.2);
+}
+
+.para{
+
+	color: white;
+	font-size: 25px;
+	padding-left: 25%;
+}
+
+.end{
+
+	color: whitesmoke;
+	font-size: 17px;
+	padding-left: 47%;
+	font-weight: bolder;
+}
+
+.end:hover{
+
+	color: blueviolet;
+}
